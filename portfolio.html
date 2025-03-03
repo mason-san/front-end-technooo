@@ -2,11 +2,12 @@
 <head>
 	<title>Portfolio</title>
 	<style>
+		body {
+			background-color: #245C46;
+		}
 		.github-section{
 			display: flex;
-			align-items: center;
 			justify-content: space-between; 
-			padding: 25px; 
 		}
 		#githubLogo{
 			height: 90%; 
@@ -33,7 +34,20 @@
 		.git-linker{
 			display: flex; 
 			flex-direction: column;
+			justify-content: space-evenly; 
+		}
 
+		.Name-card{
+			background-color: #496276; 
+			border-radius: 26px;
+			padding: 50px 50px; 
+			height: 50%; 
+			width: 35%; 
+			font-size: 25px; 
+		}
+
+		.git-linker div{
+			margin-right: 80px; 
 		}
 	</style>
 </head>
@@ -43,9 +57,11 @@
 			<span style="display: block; margin-left: 25px; margin-right: auto; width: 50%; ">
 				<a target="_blank" href="https://github.com/mason-san" alt="My-Github-Profile"><img id="githubLogo" src="https://www.nme.com/wp-content/uploads/2020/08/The_Batman_Robert_Pattinson.jpeg" alt="github-logo"></a>
 			</span>
-			<span style="display: block; margin-left: 50px; margin-right: auto; ">
-				Mazin Moosa Mahe Monna
-			</span>
+			<div>
+				<span style="display: block; margin-left: 50px; margin-right: auto; color: white; " class="Name-card">
+					Mazin Moosa
+				</span>
+			</div>
 		</div>
 		<div class="details">
 			<table>
