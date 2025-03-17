@@ -7,7 +7,7 @@
 		}
 		.github-section{
 			display: flex;
-			justify-content: space-between; 
+			justify-content: center; 
 		}
 		#githubLogo{
 			height: 90%; 
@@ -34,15 +34,18 @@
 		.git-linker{
 			display: flex; 
 			flex-direction: column;
-			justify-content: space-evenly; 
+			justify-content: space-around; 
+			align-items: center;
+			background-color: red; 
+			width: 80%;
+			height: 19.6rem;  
 		}
 
 		.Name-card{
 			background-color: #496276; 
 			border-radius: 26px;
-			padding: 50px 50px; 
 			height: 50%; 
-			width: 35%; 
+			width: auto;  
 			font-size: 25px; 
 		}
 
@@ -54,30 +57,14 @@
 <BODY>
 	<div class="github-section">
 		<div class="git-linker">
-			<span style="display: block; margin-left: 25px; margin-right: auto; width: 50%; ">
-				<a target="_blank" href="https://github.com/mason-san" alt="My-Github-Profile"><img id="githubLogo" src="https://www.nme.com/wp-content/uploads/2020/08/The_Batman_Robert_Pattinson.jpeg" alt="github-logo"></a>
-			</span>
 			<div>
-				<span style="display: block; margin-left: 50px; margin-right: auto; color: white; " class="Name-card">
+				<a target="_blank" href="https://github.com/mason-san" alt="My-Github-Profile"><img id="githubLogo" src="https://www.nme.com/wp-content/uploads/2020/08/The_Batman_Robert_Pattinson.jpeg" alt="github-logo"></a>
+			</div>
+			<div>
+				<span class="Name-card">
 					Mazin Moosa
 				</span>
 			</div>
-		</div>
-		<div class="details">
-			<table>
-				<tr>
-					<th>Degree</th>
-					<th>College</th>
-					<th>Marks</th>
-					<th>Year of Passing</th>
-				</tr>
-				<tr>
-					<td>AIML</td>
-					<td>MITE</td>
-					<td>100</td>
-					<td>2027</td>
-				</tr>
-			</table>
 		</div>
 	</div>
 </BODY>
